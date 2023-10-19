@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Barrio;
+    src: url(../fonts/Barrio-Regular.ttf)
+  }
+
+body {
+    font-family: 'Lexend Tera', sans-serif;
+    margin: 0;
+}
+
+
+html {
+    /* background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(163,208,114,1) 100%); */
+    background-image: url('../assets/background.svg');
+    background-size: 100%;
+    max-width: 100%;
+
+}
+
+.menu {
+    padding: 45px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-logo {
+    padding-left: 70px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap ;
+    padding-right: 70px;
+    font-size: 14px;
+}
+
+.menu-nav ul li a {
+    text-decoration-line: none;
+    color: #000;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.48);
+}
+
+.menu-nav li {
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
