@@ -1,17 +1,18 @@
 body {
     margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 html {
     background-color: #A3D072;
-    background-image: url('../assets/background.svg');
+    background-image: url('../assets/svg/background.svg');
     background-size: 100%;
     max-width: 100%;
 }
 
 
 .menu {
+    margin-top: 10px;
     padding: 18px;
 	display: flex;
 	flex-wrap: wrap;
@@ -28,7 +29,7 @@ html {
     display: flex;
     flex-wrap: wrap ;
     padding-right: 70px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .menu-nav ul li a {
@@ -65,7 +66,16 @@ p {
 
 .sobre-img {
     margin-top: 40px;
+    box-shadow: 0 0 0 10px #107933a5;
+    border-radius: 50%;
+    
 }
+
+/* .sobre-img:hover
+{
+  
+    box-shadow: 0 0 0 10px #107933a5;
+} */
 
 .sobre  {
     display: block;
