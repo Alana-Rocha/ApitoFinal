@@ -1,0 +1,19 @@
+.container-lendas {
+  margin: 1rem 0;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-lendas {
+  display: flex;
+  gap: 5rem;
+}
+
+.imagem-lenda {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
