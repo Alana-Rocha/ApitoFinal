@@ -10,7 +10,6 @@ html {
     max-width: 100%;
 }
 
-
 .menu {
     margin-top: 10px;
     padding: 18px;
@@ -89,57 +88,3 @@ p {
    align-items: center;
    justify-content: center;
 }
-
-.benefits {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 6rem;
-  }
-  
-  .container-benefits {
-    max-width: 70vw;
-    display: flex;
-    flex-direction: column;
-  
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    margin: 3rem 0 3rem;
-  }
-  
-  .container-benefits p {
-    max-width: 30rem;
-  }
-  
-  .image-volei,
-  .image-musculacao,
-  .image-corrida {
-    max-width: 80vw;
-    width: 250px;
-    height: 250px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .image-volei {
-    background-image: url("../assets/volei_home.png");
-  }
-  
-  .image-musculacao {
-    background-image: url("../assets/musculacao_home.png");
-  }
-  
-  .image-corrida {
-    background-image: url("../assets/corrida_home.png");
-  }
-  
-
-
-
-
-
-
-
