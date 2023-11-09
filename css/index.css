@@ -100,3 +100,19 @@ p {
 .imagem-conteudo {
   filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.4));
 }
+
+.rodape-container {
+  background-color: #76aa3e;
+  padding: 10px;
+}
+
+.rodape-container p{
+  text-align: center;
+}
+
+.sociais {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+
+}
