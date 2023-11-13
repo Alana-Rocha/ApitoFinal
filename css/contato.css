@@ -1,6 +1,10 @@
 body {
     margin: 0;
+    /* background-image: url('../assets/img/campo.jpg'); */
+    backdrop-filter: 40px;
+    height: 100vh;
 }
+
 
 h1 {
     font-size: 40px;
@@ -8,6 +12,7 @@ h1 {
 }
 
 .contato-container {
+    backdrop-filter: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,4 +29,5 @@ h1 {
     text-align: center;
     border-radius: 18px;
     padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
 }
