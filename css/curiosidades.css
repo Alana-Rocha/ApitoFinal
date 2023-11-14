@@ -1,0 +1,20 @@
+.curiosidades-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.curiosidades-conteudo {
+  margin: 0 7%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.curiosidades-imagem {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
