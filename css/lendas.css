@@ -22,3 +22,14 @@
   width: 920px;
   border: 1px solid #000;
 }
+
+.container-lendas h1{
+  color: #232423;
+  text-align: center; 
+}
+
+.container-lendas p {
+  font-size: 23px;
+}
+
+
