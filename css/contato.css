@@ -1,9 +1,8 @@
 body {
     margin: 0;
     backdrop-filter: 40px;
-    height: 100vh;
+    position: relative;
 }
-
 
 h1 {
     font-size: 40px;
@@ -18,7 +17,6 @@ h1 {
     padding-top: 50px;
 }
 
-
 .localizacao,
 .numero-telefone,
 .email {
@@ -30,3 +28,8 @@ h1 {
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.404);
 }
+
+.rodape-container {
+  margin-top: 290px;
+}
+
