@@ -9,7 +9,10 @@ h1 {
     text-align: center;
 }
 
+
+
 .contato-container {
+    margin-top: 200px;
     backdrop-filter: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -30,6 +33,6 @@ h1 {
 }
 
 .rodape-container {
-  margin-top: 290px;
+  margin-top: 330px;
 }
 

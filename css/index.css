@@ -50,7 +50,7 @@ html {
 }
 
 .introducao {
-  position: relative;
+ font-size: 30px;
 }
 
 h1 {
@@ -58,7 +58,6 @@ h1 {
   margin: 0 auto;
   padding-bottom: 50px;
   width: fit-content;
-  font-size: 50px;
   border-bottom: 2px solid;
 }
 
@@ -156,12 +155,11 @@ p {
   border: 1px solid #000;
 }
 
-.container-lendas h1{
+.principal {
+  font-size: 50px;
   color: #232423;
   text-align: center; 
 }
-
-
 
 .introducao-institutos p, .introducao-lendas p, .introducao-curiosidades p {
  font-size: 23px;
