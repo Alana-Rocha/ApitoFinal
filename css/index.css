@@ -32,7 +32,7 @@ html {
 
 .menu-nav ul li a {
   text-decoration-line: none;
-  transition: .2s;
+  transition: 0.2s;
   color: #000;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -54,7 +54,12 @@ html {
 }
 
 h1 {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: fit-content;
   font-size: 50px;
+  border-bottom: 2px solid;
 }
 
 p {
@@ -106,7 +111,28 @@ p {
   padding: 10px;
 }
 
-.rodape-container p{
+.rodape-container p {
   text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.conteudo {
+  margin: 0 7%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.imagem {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
